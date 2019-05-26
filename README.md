@@ -1,6 +1,6 @@
 # Cardstock
 <div align="left">
-	<img src="https://img.shields.io/badge/version-1001-success.svg"><img src="https://img.shields.io/badge/build-unstable-critical.svg">
+	<img src="https://img.shields.io/badge/version-1001-success.svg">   <img src="https://img.shields.io/badge/build-unstable-critical.svg">
 	<br><br>
 </div>
 
