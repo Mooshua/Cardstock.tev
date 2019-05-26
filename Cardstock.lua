@@ -13,7 +13,7 @@
 
 ]]
 
-print("Cardstock.tev (1/0/0/1) is starting")
+print("Cardstock.tev (1001) is starting")
 
 local middleclass = require "middleclass"
 
@@ -202,7 +202,8 @@ function button:initialize(properties,...)
             engine.tween:begin(cC,0.25,{size=guiCoord(1.2,0,(self.size.offsetX/self.size.offsetY)*1.2,0)},"outQuad")
         end)
         a:mouseLeftReleased(function())
-            engine.tween:begin(cC,0.3,)
+            engine.tween:begin(cC,0.3,{imageTransparency=1},"linear")
+        end
         return a
     )
 end
