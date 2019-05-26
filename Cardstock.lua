@@ -241,6 +241,10 @@ function cardstock:construct(class,...)
     end
 end
 
+	
+function cardstock:c(...)
+	return cardstock:construct(...)
+end
 
 print("Cardstock: ready")
 
